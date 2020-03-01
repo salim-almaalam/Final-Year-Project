@@ -43,18 +43,28 @@
    
 
 
-
-<button onclick="myFunction()">Toggle</button>
+<div class="container">
+<!-- <button onclick="myFunction()">Toggle</button> -->
 
 <div id="mydiv">
 <h2>Have you got any question in UR head?</h2>
-<input type="text" id="question" placeholder="Type here...">
-<span class="Add-Q" onclick="newQ()"> <button> ADD </button>  </span>
+<input type="text" id="question-title" placeholder="Question title.. ">
+
+<br>
+<textarea type="text" id= "question" placeholder="type your question here.."> </textarea> <br>
+<span class="Add-Q" onclick="newQ()"> <button> ADD </button>  </span> 
+
+
 </div>
 
+<div id="list">
 <ul id="myList">
   
-</ul>
+  </ul>
+</div>
+
+
+</div>
 
 
 
