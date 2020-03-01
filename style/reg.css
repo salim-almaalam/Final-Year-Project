@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  line-height: 2;
+}
+
+body {
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+p {
+  font-size: 16px;
+}
+
+.title h1 {
+  float: left;
+  margin-left: 10px;
+}
+.register {
+  text-align: center;
+}
+
+body {
+  justify-content: center;
+}
+
+.title {
+  color: rgb(255, 136, 0);
+  background-color: rgb(245, 242, 238);
+  margin: 0;
+  padding: 0px;
+}
+.form {
+  display: block;
+  text-align: center;
+}
+input {
+  width: 200px;
+  margin: 7px 0 0 7px;
+  padding: 0;
+}

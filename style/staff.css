@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+}
+.title {
+  /* background-color: #cccccc; */
+  /* position: relative; */
+  order: 1;
+}
+
+.list {
+  /* position: absolute; */
+  order: 2;
+}
+.table {
+  order: 3;
+}
+table {
+  /* order: 3; */
+  border: 1px royalblue solid;
+  background-color: rgba(132, 136, 148, 0.541);
+  border-style: solid;
+  margin: 5px;
+  padding: 5px;
+}
+
+td {
+  border: 1px royalblue solid;
+}
